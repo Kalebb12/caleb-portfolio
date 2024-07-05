@@ -1,5 +1,5 @@
 import scrutz from "/scrutz.png"
-import edge from "/edge-m5.png"
+import edge from "/edge.png"
 import food from "/food.png"
 const Project = () => {
   return (
