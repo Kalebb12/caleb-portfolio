@@ -1,4 +1,4 @@
-import resume from "/calebResume.png"
+import resume from "/caleb.png"
 const Resume = () => {
     return (
         <div className=" text-center mt-5">
