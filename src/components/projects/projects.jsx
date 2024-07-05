@@ -1,3 +1,6 @@
+import scrutz from "/scrutz.png"
+import edge from "/edge-m5.png"
+import food from "/food.png"
 const Project = () => {
   return (
     <div>
@@ -6,7 +9,7 @@ const Project = () => {
         <div className="projects_view row">
           <div className="item col-md-4">
             <div className="img_container">
-              <img src="/scrutz.png" className="w-100 h-100" alt="" />
+              <img src={scrutz} className="w-100 h-100" alt="" />
             </div>
             <h3>Scrutz front end challenge</h3>
             <p className="des">
@@ -18,7 +21,7 @@ const Project = () => {
           </div>
           <div className="item col-md-4">
             <div className="img_container">
-              <img src="/edge-m5.PNG" className="w-100 h-100" alt="" />
+              <img src={edge} className="w-100 h-100" alt="" />
             </div>
             <h3>Edge M5 landing page</h3>
             <p className="des">
@@ -30,7 +33,7 @@ const Project = () => {
           </div>
           <div className="item col-md-4">
             <div className="img_container">
-              <img src="/food.PNG" className="w-100 h-100" alt="" />
+              <img src={food} className="w-100 h-100" alt="" />
             </div>
             <h3>Search food receipes</h3>
             <p className="des">

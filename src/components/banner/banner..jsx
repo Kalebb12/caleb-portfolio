@@ -1,5 +1,5 @@
 import Reachout from "../links";
-
+import programmer from "/programmer-iaITJH6X.svg"
 const Banner = () => {
   return (
     <div className="banner-section">
@@ -36,7 +36,7 @@ const Banner = () => {
           </div>
         </div>
         <div class="col-md-5">
-          <img src="/programmer-iaITJH6X.svg" alt="" className=" mt-5"  />
+          <img src={programmer} alt="" className=" mt-5"  />
         </div>
       </div>
     </div>
